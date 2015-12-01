@@ -33,7 +33,7 @@ sort:
     outerloop:
             CMP R0, #20
             BEQ sortdone
-            MOV R5, #200
+            MOV R5, #2000
             MOV R1, #0
             CMP R0, #1
             LDRGE R6, [R10]
